@@ -26,7 +26,7 @@ const EventsList = () => {
                     <p className="mb-2">{event.description}</p>
                     <p className="mb-2">{new Date(event.date).toDateString()}</p>
                     <a href={event.meetLink} target="_blank" rel="noopener noreferrer" className="text-blue-500">
-                        Join The Workshop
+                        Join
                     </a>
                 </div>
             ))}

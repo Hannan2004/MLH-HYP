@@ -6,7 +6,7 @@ const Sidebar = () => {
   return (
     <div className="w-[240px] bg-gray-800 text-white h-screen flex flex-col justify-between fixed">
       <div className="p-4">
-        <h2 className="text-2xl font-bold mb-4">Community Platform</h2>
+        <h2 className="text-2xl font-bold mb-4">Study Hub</h2>
         <ul>
           <li className="mb-2">
             <Link to="/join-group" className="flex items-center text-white hover:text-gray-400">
@@ -15,7 +15,7 @@ const Sidebar = () => {
           </li>
           <li className="mb-2">
             <Link to="/create-study-groups" className="flex items-center text-white hover:text-gray-400">
-              <FaCalendarPlus className="mr-2" /> Create Study Group
+              <FaCalendarPlus className="mr-2" /> Create Group
             </Link>
           </li>
           <li className="mb-2">
@@ -49,13 +49,6 @@ const Sidebar = () => {
             </Link>
           </li>
         </ul>
-      </div>
-      <div className="p-4">
-        <button
-          className="flex items-center text-white hover:text-gray-400 w-full text-left mt-auto"
-        >
-          <FaSignOutAlt className="mr-2" /> Logout
-        </button>
       </div>
     </div>
   );
